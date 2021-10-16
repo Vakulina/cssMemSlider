@@ -4,10 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slider</title>
   <link rel="stylesheet" href="./index.css">
+  <title>Slider</title>
+
 </head>
 <body>
-  
+  <div class="slider">
+    <div class="slider__inputs">
+    <input type="radio" id="slide-1" name="slide" value="slide-1">
+    <input type="radio" id="slide-2" name="slide" value="slide-2">
+    <input type="radio" id="slide-3" name="slide" value="slide-3">
+    <input type="radio" id="slide-4" name="slide" value="slide-4" checked>
+  </div>
+    <div class="slider__slides">
+      <div class="slider__slides slider__slides_type_img1"></div>
+      <div class="slider__slides slider__slides_type_img1"></div>
+      <div class="slider__slides slider__slides_type_img1"></div>
+      <div class="slider__slides slider__slides_type_img1"></div>
+    </div>
+    <div class="slider__captions">
+      <label for="slide-1" class="slider__caption_type_1"> Причина, по которой я не сдаю проекты вовремя </label>
+      <label for="slide-2" class="slider__caption_type_2"> Говорили мне, не лезь в IT </label>
+      <label for="slide-3" class="slider__caption_type_3"> И так каждый раз </label>
+      <label for="slide-4" class="slider__caption_type_4"> Люблю кодинг - ненавижу кодинг </label>
+    </div>
+    <div class="slider__controls">
+      <label for="slide-1" class="slider__control_type_1"></label>
+      <label for="slide-2" class="slider__control_type_2"></label>
+      <label for="slide-3" class="slider__control_type_3"></label>
+      <label for="slide-4" class="slider__control_type_4"></label>
+    </div>
+  </div>
 </body>
 </html>
