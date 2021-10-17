@@ -47,12 +47,11 @@ width: 40%;
   width: 100%;
   margin: 0 auto;
 }
-.caption-inner{
-  overflow: hidden;
-  width: 100%;
-  margin: 0 auto;
+@media (max-width: 500px){
+  .slider-inner {
+order: -1;
 
-}
+}}
 .slides {
   width: 400%;
   transition: all 0.5s;
@@ -67,10 +66,17 @@ width: 40%;
   margin-left: 0;
 
 }
+
 .slider__captions{
   width: 400%;
 
 }
+@media (max-width: 500px){
+  .slider__controls{
+    width: 100%;
+    justify-content: center;
+    order: -1;
+  }}
 .slider__captions label{
   display: inline;
   float: left;
