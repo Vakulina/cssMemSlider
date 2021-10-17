@@ -76,3 +76,17 @@ width: 40%;
   float: left;
   width: 25%;
 }
+.slide-1:checked~.slider-inner .slides {
+  transform: translate(0);
+}
+
+.slide-2:checked~.slider-inner .slides {
+  transform: translate(-25%);
+}
+
+.slide-3:checked~.slider-inner .slides {
+  transform: translate(-50%);
+}
+.slide-4:checked~.slider-inner .slides {
+  transform: translate(-75%);
+}
