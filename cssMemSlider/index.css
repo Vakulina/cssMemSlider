@@ -96,3 +96,19 @@ order: -1;
 .slide-4:checked~.slider-inner .slides {
   transform: translate(-75%);
 }
+
+
+.slide-1:checked~.caption-inner .slider__captions {
+  transform: translate(0);
+}
+
+.slide-2:checked~.caption-inner .slider__captions {
+  transform: translate(-25%);
+}
+
+.slide-3:checked~.caption-inner .slider__captions {
+  transform: translate(-50%);
+}
+.slide-4:checked~.caption-inner .slider__captions {
+  transform: translate(-75%);
+}
