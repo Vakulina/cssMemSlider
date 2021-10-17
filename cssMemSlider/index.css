@@ -69,7 +69,7 @@ order: -1;
 
 .slider__captions{
   width: 400%;
-
+  transition: all 0.5s;
 }
 @media (max-width: 500px){
   .slider__controls{
