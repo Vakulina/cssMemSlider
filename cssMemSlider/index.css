@@ -96,6 +96,24 @@ order: -1;
 .slide-4:checked~.slider-inner .slides {
   transform: translate(-75%);
 }
+.slide-1:checked~.slider__controls .slider__control_type_1 {
+  background-color: #fff;
+}
+.slide-2:checked~.slider__controls .slider__control_type_2 {
+  background-color: #fff;
+}
+.slide-3:checked~.slider__controls .slider__control_type_3  {
+  background-color: #fff;
+}
+.slide-4:checked~.slider__controls .slider__control_type_4  {
+  background-color: #fff;
+}
+input:checked~ .slider__controls .slider__control:hover{
+  background-color: rgb(110, 85, 85);
+} 
+
+
+
 
 
 .slide-1:checked~.caption-inner .slider__captions {
@@ -112,3 +130,6 @@ order: -1;
 .slide-4:checked~.caption-inner .slider__captions {
   transform: translate(-75%);
 }
+
+
+
